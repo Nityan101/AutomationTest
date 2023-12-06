@@ -10,6 +10,7 @@ public class Website_Launch extends  Browser{
      }
 
      public static void Open_url(){
+
          driver.get("https://www.google.com");
      }
 
