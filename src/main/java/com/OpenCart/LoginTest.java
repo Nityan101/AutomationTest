@@ -8,11 +8,12 @@ public class LoginTest extends BaseClass {
 
     public static void main(String[] args){
 
-        firefox_launch();
+        //firefox_launch();
+        launch_browser("firefox");
         open_url("https://www.opencart.com/index.php?route=account/login");
         TC_Login_001();
 
-        chrome_launch();
+        launch_browser("firefox");
         open_url("https://www.google.com/webhp?hl=bn&sa=X&ved=0ahUKEwilg4iqz_iCAxUQavUHHfCrCWoQPAgJ");
         TC_Login_002();
     }
