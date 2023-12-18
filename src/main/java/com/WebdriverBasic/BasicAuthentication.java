@@ -10,7 +10,8 @@ public class BasicAuthentication extends BaseClass {
         basic_auth();
         System.out.println(driver.getTitle());
     }
-    public static void basic_auth(){
+    public static void basic_auth()
+    {
         driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
     }
 }

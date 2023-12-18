@@ -10,7 +10,7 @@ public class LoginTest extends BaseClass {
 
         //firefox_launch();
         launch_browser("firefox");
-        open_url("https://www.opencart.com/index.php?route=account/login");
+        open_url("https://demo.opencart.com/index.php?route=account/login&language=en-gb");
         TC_Login_001();
 
         launch_browser("firefox");
