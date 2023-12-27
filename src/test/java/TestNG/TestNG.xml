@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Test Suit">
+    
+    <test name="Loging Functional Test">
+        <classes>
+            <class name="ExtentsReports.LoginExtent"></class>
+
+        </classes>
+    </test>
+    
+</suite>
